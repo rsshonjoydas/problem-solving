@@ -11,7 +11,42 @@
 
 ## Table of Contents
 
+- [Fibonacci Sequence](#fibonacci-sequence)
 - [Contact](#contact)
+
+<!-- Fibonacci Sequence -->
+
+## Fibonacci Sequence
+
+- Problem: Write a function to generate the nth Fibonacci number.
+- [How it works](./how-it-work/fibonacci.md)
+- Solution:
+
+---
+
+#### JavaScript Section
+
+```javascript
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+```
+
+[Try it Yourself](https://replit.com/@rsshonjoydas/Fibonacci-Sequence-JavaScript)
+
+#### Python Section
+
+```python
+def fibonacci(n):
+  if n <= 1:
+    return n
+  return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+[Try it Yourself](https://replit.com/@rsshonjoydas/Fibonacci-Sequence-Python)
+
+---
 
 <!-- CONTACT -->
 
