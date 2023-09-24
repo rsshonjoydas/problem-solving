@@ -12,6 +12,7 @@
 ## Table of Contents
 
 - [Fibonacci Sequence](#fibonacci-sequence)
+- [Reverse a String](#reverse-a-string)
 - [Contact](#contact)
 
 <!-- Fibonacci Sequence -->
@@ -45,6 +46,34 @@ def fibonacci(n):
 ```
 
 [Try it Yourself](https://replit.com/@rsshonjoydas/Fibonacci-Sequence-Python)
+
+<!-- Reverse a String -->
+
+## Reverse a String
+
+- Problem: Reverse a given string.
+- Solution:
+
+---
+
+#### JavaScript Section
+
+```javascript
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+```
+
+[Try it Yourself](https://replit.com/@rsshonjoydas/Reverse-a-String-JavaScript)
+
+#### Python Section
+
+```python
+def reverse_string(s):
+  return ''.join(reversed(s))
+```
+
+[Try it Yourself](https://replit.com/@rsshonjoydas/Reverse-a-String-Python)
 
 ---
 
