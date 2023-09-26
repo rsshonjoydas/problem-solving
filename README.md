@@ -53,6 +53,30 @@
        return ''.join(reversed(s))
      ```
 
+3. **Factorial**:
+
+   - Problem: Write a function to calculate the factorial of a number.
+   - [How it works](./how-it-work/factorial.md)
+   - Solution:
+
+     > [JavaScript](https://replit.com/@rsshonjoydas/Factorial-JavaScript)
+
+     ```javascript
+     function factorial(n) {
+       if (n === 0) return 1;
+       return n * factorial(n - 1);
+     }
+     ```
+
+     > [Python](https://replit.com/@rsshonjoydas/Factorial-Python)
+
+     ```python
+     def factorial(n):
+      if n == 0:
+        return 1
+      return n * factorial(n - 1)
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
