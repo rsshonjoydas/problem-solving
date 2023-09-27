@@ -114,6 +114,21 @@
       return max(arr)
      ```
 
+6. **Remove Duplicates**:
+   - Problem: Remove duplicates from an array.
+   - Solution:
+     > [JavaScript](https://replit.com/@rsshonjoydas/Remove-Duplicates-JavaScript)
+     ```javascript
+     function removeDuplicates(arr) {
+       return [...new Set(arr)];
+     }
+     ```
+     > [Python](https://replit.com/@rsshonjoydas/Remove-Duplicates-Python)
+     ```python
+     def remove_duplicates(arr):
+      return list(set(arr))
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
