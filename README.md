@@ -77,6 +77,27 @@
       return n * factorial(n - 1)
      ```
 
+4. **Palindrome**:
+
+   - Problem: Check if a given string is a palindrome (reads the same forwards and backwards).
+   - [How it works](./how-it-work/palindrome.md)
+   - Solution:
+
+     > [JavaScript](https://replit.com/@rsshonjoydas/Palindrome-JavaScript)
+
+     ```javascript
+     function isPalindrome(str) {
+       return str === str.split('').reverse().join('');
+     }
+     ```
+
+     > [Python](https://replit.com/@rsshonjoydas/Palindrome-Python)
+
+     ```python
+     def is_palindrome(s):
+      return s == ''.join(reversed(s))
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
