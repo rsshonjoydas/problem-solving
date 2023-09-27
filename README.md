@@ -115,6 +115,7 @@
      ```
 
 6. **Remove Duplicates**:
+
    - Problem: Remove duplicates from an array.
    - Solution:
      > [JavaScript](https://replit.com/@rsshonjoydas/Remove-Duplicates-JavaScript)
@@ -127,6 +128,45 @@
      ```python
      def remove_duplicates(arr):
       return list(set(arr))
+     ```
+
+7. **FizzBuzz**:
+
+   - Problem: Print numbers from 1 to n. For multiples of 3, print "Fizz." For multiples of 5, print "Buzz." For multiples of both 3 and 5, print "FizzBuzz."
+   - [How it works](./how-it-work/fizzbuzz.md)
+   - Solution:
+
+     > [JavaScript](https://replit.com/@rsshonjoydas/FizzBuzz-JavaScript)
+
+     ```javascript
+     function fizzBuzz(n) {
+       for (let i = 1; i <= n; i++) {
+         if (i % 3 === 0 && i % 5 === 0) {
+           console.log('FizzBuzz');
+         } else if (i % 3 === 0) {
+           console.log('Fizz');
+         } else if (i % 5 === 0) {
+           console.log('Buzz');
+         } else {
+           console.log(i);
+         }
+       }
+     }
+     ```
+
+     > [Python](https://replit.com/@rsshonjoydas/FizzBuzz-Python)
+
+     ```python
+     def fizz_buzz(n):
+      for i in range(1, n + 1):
+        if i % 3 == 0 and i % 5 == 0:
+          print('FizzBuzz')
+        elif i % 3 == 0:
+          print('Fizz')
+        elif i % 5 == 0:
+          print('Buzz')
+        else:
+          print(i)
      ```
 
 <!-- CONTACT -->
