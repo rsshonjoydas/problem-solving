@@ -169,6 +169,29 @@
           print(i)
      ```
 
+8. **Count Occurrences**:
+
+   - Problem: Count the number of occurrences of a specific element in an array.
+   - Solution:
+
+     > [JavaScript](https://replit.com/@rsshonjoydas/Count-Occurrences-JavaScript)
+
+     ```javascript
+     function countOccurrences(arr, element) {
+       return arr.reduce(
+         (count, current) => (current === element ? count + 1 : count),
+         0
+       );
+     }
+     ```
+
+     > [Python](https://replit.com/@rsshonjoydas/Count-Occurrences-Python)
+
+     ```python
+     def count_occurrences(arr, element):
+      return arr.count(element)
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
