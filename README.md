@@ -98,6 +98,22 @@
       return s == ''.join(reversed(s))
      ```
 
+5. **Find the Largest Number**:
+
+   - Problem: Write a function to find the largest number in an array.
+   - Solution:
+     > [JavaScript](https://replit.com/@rsshonjoydas/Find-the-Largest-Number-JavaScript)
+     ```javascript
+     function findLargest(arr) {
+       return Math.max(...arr);
+     }
+     ```
+     > [Python](https://replit.com/@rsshonjoydas/Find-the-Largest-Number-Python)
+     ```python
+     def find_largest(arr):
+      return max(arr)
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
