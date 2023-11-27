@@ -210,8 +210,23 @@
      ```python
      def are_anagrams(str1, str2):
      return sorted(str1) == sorted(str2)
-
      ```
+
+10. **Sum of Array Elements**:
+    - Problem: Calculate the sum of all elements in an array.
+    - Solution:
+      > [JavaScript](https://replit.com/@rsshonjoydas/Sum-of-Array-Elements-JavaScript)
+      ```javascript
+      function sumArray(arr) {
+        return arr.reduce((sum, current) => sum + current, 0);
+      }
+      ```
+      > [Python](https://replit.com/@rsshonjoydas/Sum-of-Array-Elements-Python)
+      ```python
+      def sum_array(arr):
+      # The sum function is used to calculate the sum of the array
+      return sum(arr)
+      ```
 
 <!-- CONTACT -->
 
