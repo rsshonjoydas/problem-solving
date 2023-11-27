@@ -192,6 +192,27 @@
       return arr.count(element)
      ```
 
+9. **Check for Anagrams**:
+
+   - Problem: Check if two strings are anagrams of each other (contain the same characters in different orders).
+   - Solution:
+
+     > [JavaScript](https://replit.com/@rsshonjoydas/Check-for-Anagrams-JavaScript)
+
+     ```javascript
+     function areAnagrams(str1, str2) {
+       return str1.split('').sort().join('') === str2.split('').sort().join('');
+     }
+     ```
+
+     > [Python](https://replit.com/@rsshonjoydas/Check-for-Anagrams-Python)
+
+     ```python
+     def are_anagrams(str1, str2):
+     return sorted(str1) == sorted(str2)
+
+     ```
+
 <!-- CONTACT -->
 
 ## Contact
